@@ -32,10 +32,15 @@ Version numbers are in the format `18w21.24.3` - or:
 
 This can be generated with the `date` command: `date -u +%yw%W.%w.%H`
 
-### CONTRIBUTING.md
+### `docs/Contributing.md`
 
 Please fill out the end of this file with contributing guidelines specific to
 the language that the service is written in.
+
+### `docs/Style-Guide.md`
+
+This should either outline or link to a style guide specific to the language the
+service is written in.
 
 ### README.md
 
