@@ -23,14 +23,18 @@ of their codebases. APIs should be set in stone and if changes are necessary, a
 discussions should be opened in the
 [Gamemode](https://github.com/TradeWars/gamemode) repository.
 
-Version numbers are in the format `18w21.24.3` - or:
+Version numbers are in the format `18w26.7.12` - or:
 
-- Year
+- Two digit year
 - Week Number
-- Day of Week
-- Hour
+- Day of Week (starting from 1)
+- Hour of Day
 
-This can be generated with the `date` command: `date -u +%yw%W.%w.%H`
+This can be generated with the `date` command:
+
+```bash
+date -u +%yw%W.%u.%H
+```
 
 ### `docs/Contributing.md`
 
