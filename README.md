@@ -46,6 +46,17 @@ the language that the service is written in.
 This should either outline or link to a style guide specific to the language the
 service is written in.
 
+### Copying Issues
+
+Copying issues manually is tedious. https://github.com/jvandemo/copy-github-labels-cli can be used in order to automatically copy issues from one repository to another.
+
+1. Create a personal access token here: https://github.com/settings/tokens.
+2. `$ npm install -g copy-github-labels-cli`
+   >(Might require `sudo`)
+3. `$ copy-github-labels -t PERSONAL_ACCESS_TOKEN TradeWars/gamemode TradeWars/NEW_REPOSITORY`
+
+If the above instructions aren't correct anymore, check the repository.
+
 ### README.md
 
 You should also keep a well written readme file following the
